@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body{
+  overflow-x: hidden;
+  font-family:'Lato', sans-serif;
+  /**background-color: #f8f9fa!important;**/
+}
+
+/** Navbar**/
+.navbar{
+  background-color:	#20B2AA;
+}
+
+
+
+.navbar-light .navbar-nav .nav-item>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+color: #f8f9fa;
+}
+
+.nav-item:hover{
+  color: #20B2AA;
+}
+.navbar-light .navbar-brand{
+  color: #fff;
+  text-transform: uppercase;
+}
+/**Last update section**/
+.last-hour h2{
+font-size:12px;
+}
+.last-hour h2 span{
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+/**RIGHT SLIDE**/
+.carousel-sec{
+  margin: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa!important;
+}
+
+.w-100{
+  height:100%;
+}
+
+.carousel-caption{
+  background-color: rgba(32,178,170,0.6 );
+  position: absolute;
+  left: 1%;
+  right: 50%;
+  top:50%;
+}
+
+/**REcomadation section ***/
+
+.no-gutters{
+  position: relative;
+  padding-bottom: -5px;
+}
+.card-te{
+position: absolute;
+}
+
+.card-body{
+  font-size: 70%;
+  top: 25%;
+}
+
+/**THE Menu**/
+
+.jump h3{
+  font-size: 180%;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.jump:hover{
+  color: #20B2AA;
+  transition: 0.2s;
+}
+
+.jump p{
+  text-align: center;
+}
+
+.heading-underline {
+  width: 12rem;
+  height: .2rem;
+  background-color: #20B2AA;
+  margin: 0 auto 1rem;
+}
+
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .1em solid;
+  border-right: .1em solid transparent;
+  border-bottom: 0;
+  border-left: .1em solid transparent;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 99%;
+  left: 10%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .15rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: center;
+  list-style: none;
+  background-color: rgb(211, 211, 211,0.9);
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: .3rem 1rem;
+  clear: both;
+  font-weight: 350;
+  color: #20B2AA;
+  text-align: center;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+/** Soponsorship slider**/
+
+
+/**FOOTER**/
+.jump h4{
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+footer .heading-underline{
+  width: 8rem;
+  height: .2rem;
+  background-color: #20B2AA;
+  margin: 0 auto 1rem;
+}
